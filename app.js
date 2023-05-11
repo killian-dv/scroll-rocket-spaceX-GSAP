@@ -25,7 +25,7 @@ allBlocs.forEach((bloc, index) => {
         gsap.set(bloc, {
             scrollTrigger: {
                 trigger: bloc,
-                start: 'center+=35% center',
+                start: 'top center',
                 // markers: true,
                 onEnter: () => {
                     bloc.classList.add('active');
